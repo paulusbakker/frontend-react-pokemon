@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*background-color: cornsilk;*/
+
+}
+
+header {
+    text-align: center;
+    background-color: #fdca05;
+}
+
+.listParent {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: #fdca05;
+}
+
+button {
+    border-color: black;
+    margin: 5px;
+    color: crimson;
+    background-color: darkblue;
+    color: cornsilk;
+    padding: 3px;
+}
+
+button:disabled {
+    background-color: grey;
+}
+
+/**/
